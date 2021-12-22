@@ -21,7 +21,7 @@ nav h1 {
 nav a {
     color: #fff;
     text-decoration: none;
-    background: #36cca2;
+    background: #33bcdfe8;
     padding: 10px;
     border-radius: 10px;
 }
@@ -41,4 +41,29 @@ input, textarea {
 
 textarea {
     min-height: 200px;
+}
+
+/*post list*/
+.post {
+    padding: 16px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.post h2 {
+    margin: 0;
+    color: #000
+}
+
+.post p {
+    margin-top: 0;
+}
+
+.post a {
+    color: #fff;
+    text-decoration: none;
+    background: #15768fcb;
+    padding: 10px;
+    border-radius: 10px;
 }
