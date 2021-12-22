@@ -1,0 +1,28 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Welcome to Decagon",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, ad fugiat corporis quaerat totam perferendis nesciunt amet odit, mollitia id, voluptas culpa. Dolores, ipsam. Culpa ipsum corporis beatae enim itaque!",
+            "likes": 30
+        },
+        {
+            "id": 2,
+            "title": "JSON Server Project",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, ad fugiat corporis quaerat totam perferendis nesciunt amet odit, mollitia id, voluptas culpa. Dolores, ipsam. Culpa ipsum corporis beatae enim itaque!",
+            "likes": 40
+        },
+        {
+            "id": 3,
+            "title": "Two days to Christmas",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, ad fugiat corporis quaerat totam perferendis nesciunt amet odit, mollitia id, voluptas culpa. Dolores, ipsam. Culpa ipsum corporis beatae enim itaque!",
+            "likes": 35
+        },
+        {
+            "id": 4,
+            "title": "MongoDB 101",
+            "body": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, ad fugiat corporis quaerat totam perferendis nesciunt amet odit, mollitia id, voluptas culpa. Dolores, ipsam. Culpa ipsum corporis beatae enim itaque!",
+            "likes": 18
+        }
+    ]
+}
