@@ -9,7 +9,6 @@ const createPost = async(e) => {
         likes: 0
     }
 
-    console.log(doc)
 
     await fetch("http://localhost:3000/posts", {
         method: "POST",
