@@ -1,69 +1,165 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@300;400&family=Roboto:wght@300&display=swap");
 
 body {
-    background: #eee;
-    font-family: "Roboto";
-    color: #444;
-    max-width: 960px;
-    margin: 100px auto;
-    padding: 10px;
+  background: url("http://yesofcorsa.com/wp-content/uploads/2016/12/Black-and-White-Best-Wallpaper.jpg") no-repeat fixed;
+  background-size: cover;
+  /* background-color: rgb(226, 220, 212); */
+  max-width: 1060px;
+  margin: 60px auto;
+  padding: 10px;
+  letter-spacing: 2px;
+}
+
+.container {
+  font-family: Poppins;
+  color: #444;
+  max-width: 1060px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0;
+  margin-left: 5px;
+  font-family: Poppins, Courier, monospace;
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 20px;
+}
+
+nav a {
+  color: #fff;
+  font-weight: bold;
+  font-family: "Courier New";
+  text-decoration: none;
+  background: #1397b4e8;
+  padding: 10px;
+  border-radius: 10px;
+  max-height: 20px;
+  font-size: 1.4em;
+  display: block;
+  letter-spacing: 2px;
+}
+
+form {
+  max-width: 500px;
+}
+
+/*Create*/
+input {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 950px;
+  min-height: 30px;
+  border: 1px solid #ddd;
+  font-family: Poppins;
+}
+
+textarea {
+  display: block;
+  margin: 16px 0;
+  padding: 6px 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-family: Poppins;
+}
+
+textarea {
+  min-height: 400px;
+  min-width: 950px;
+}
+
+.create {
+  margin-top: 30px;
+  border-radius: 10px;
+  background: #1397b4e8;
+  border: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3em;
+  display: block;
+  padding: 10px 16px;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+/*post list*/
+.post {
+  padding: 16px;
+  background: #fff;
+  border-radius: 10px;
+  margin: 20px -15px;
+}
+
+.post h2 {
+  margin: 0;
+  color: #000;
+}
+
+.post p {
+  margin-top: 0;
+}
+
+.post a {
+  color: #fff;
+  text-decoration: none;
+  background: #15768fcb;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.details {
+  background: rgb(255, 255, 255);
+  font-family: Poppins;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 50px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+}
+
+.delete {
+    margin-top: 30px;
+    border-radius: 10px;
+    background: #1397b4e8;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3em;
+    display: block;
+    padding: 10px 16px;
+    letter-spacing: 5px;
+    cursor: pointer;
+  }
+
+.search {
+  padding: 5px auto;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  width: 50px;
+  height: 30px;
+}
+
+.create-header {
     display: flex;
     justify-content: space-between;
 }
 
-nav h1 {
-    margin: 0;
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    background: #33bcdfe8;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-form {
-    max-width: 500px;
-}
-
-input, textarea {
-    display: block;
-    margin: 16px 0;
-    padding: 6px 10px;
-    width: 100%;
-    border: 1px solid #ddd;
-    font-family: "Roboto";
-}
-
-textarea {
-    min-height: 200px;
-}
-
-/*post list*/
-.post {
-    padding: 16px;
-    background: #fff;
-    border-radius: 10px;
-    margin: 20px 0;
-}
-
-.post h2 {
-    margin: 0;
-    color: #000
-}
-
-.post p {
-    margin-top: 0;
-}
-
-.post a {
-    color: #fff;
-    text-decoration: none;
-    background: #15768fcb;
-    padding: 10px;
-    border-radius: 10px;
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
 }

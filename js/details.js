@@ -1,7 +1,10 @@
-const container = document.querySelector(".details")
-const deleteBtn = document.querySelector(".delete")
+const container = document.querySelector(".details");
+const deleteBtn = document.querySelector(".delete");
+//const likeBtn = document.querySelector(".like");
 
 const id = new URLSearchParams(window.location.search).get("id")
+//const likeCount = new URLSearchParams(window.location.search).get("likes")
+
 const uri = "http://localhost:3000/posts/";
 
 const renderDetails = async () => {
@@ -11,6 +14,7 @@ const renderDetails = async () => {
 
     const template = `
         <h1>${post.title}</h1>
+        <br>
         <p>${post.body}</p>
     `;
 
@@ -25,6 +29,10 @@ const deletePost = async(e) => {
 
     window.location.replace("/index.html")
 }
+
+// likeBtn.addEventListener("click", () => {
+//     likeCount++;
+// })
 
 deleteBtn.addEventListener("click", deletePost)
 

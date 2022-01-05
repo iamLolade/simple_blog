@@ -12,14 +12,14 @@ const renderPosts = async (term) => {
     const res = await fetch(uri);
     const posts = await res.json();
 
-    console.log(posts)
+    //console.log(posts)
 
     let template = "";
     posts.forEach(post => {
         template += `
             <div class="post">
                 <h2>${post.title}</h2>
-                <p><small>${post.likes} ❤️</small></p>
+                <br>
                 <p>${post.body.slice(0, 200)}</p>
                 <br>
                 <a href="/details.html?id=${post.id}">Read more...</a>
@@ -30,6 +30,7 @@ const renderPosts = async (term) => {
     container.innerHTML = template;
 }
 
+//Search Post
 const searchPost = (e) => {
     e.preventDefault()
 
